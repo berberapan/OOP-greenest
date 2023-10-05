@@ -13,7 +13,7 @@ class CarnivorousPlantTest {
 
         assertThrows(IllegalArgumentException.class,
                 () -> {
-                    Palm p = new Palm("Joe", -0.1);
+                    CarnivorousPlant c = new CarnivorousPlant("Joe", -0.1);
                 });
 
         assertEquals(expectedOutput, test.dailyLiquidInLitres());
